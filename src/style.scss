@@ -1,1 +1,37 @@
+@import url('https://fonts.googleapis.com/css?family=Lobster&display=swap');
 
+.header {
+  padding: 10px;
+}
+
+.story_title {
+  text-align: center;
+  font-family: 'Lobster', cursive;
+  font-size: 20px;
+  text-shadow: 4px 4px 8px lavender;
+}
+
+.alice_header_picture {
+  position: absolute;
+  top: 15%;
+  right: 35%;
+}
+
+.down_arrow {
+  position: absolute;
+  top: 85%;
+  right: 48%;
+  text-align: center;
+  animation-name: bounce-3;
+  animation-timing-function: ease;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+
+}
+
+@keyframes bounce-3 {
+      0%   { transform: translateY(0); }
+      30%  { transform: translateY(-20px); }
+      50%  { transform: translateY(0); }
+      100% { transform: translateY(0); }
+  }
