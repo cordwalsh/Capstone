@@ -1,7 +1,8 @@
 @import url('https://fonts.googleapis.com/css?family=Lobster&display=swap');
 
 .header {
-  padding: 10px;
+  position: fixed;
+  z-index: 1;
 }
 
 .story_title {
@@ -26,12 +27,33 @@
   animation-timing-function: ease;
   animation-duration: 2s;
   animation-iteration-count: infinite;
-
 }
 
 @keyframes bounce-3 {
-      0%   { transform: translateY(0); }
-      30%  { transform: translateY(-20px); }
-      50%  { transform: translateY(0); }
-      100% { transform: translateY(0); }
-  }
+  0%   { transform: translateY(0); }
+  30%  { transform: translateY(-20px); }
+  50%  { transform: translateY(0); }
+  100% { transform: translateY(0); }
+}
+
+.gradient_box {
+  background-image: linear-gradient(white, lightblue);
+  position: absolute;
+  top: 110%;
+  width: 99%;
+  height: 500px;
+}
+
+.grass_field {
+  position: absolute;
+  top: 115%;
+  right: 0%;
+}
+
+.first_chapter {
+  position: absolute;
+  top: 125%;
+  width: 75%;
+  right: 14%;
+  font-size: 20px;
+}
