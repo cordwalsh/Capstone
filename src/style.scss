@@ -21,19 +21,27 @@
   text-align: center;
   font-family: 'Lobster', cursive;
   font-size: 20px;
-  text-shadow: 4px 4px 8px lavender;
+  text-shadow: 1px 1px 8px grey;
+  animation: fadein 3s;
+}
+
+@keyframes fadein {
+  from { opacity: 0; }
+  to   { opacity: 1; }
 }
 
 .alice_header_picture {
   position: absolute;
   top: 15%;
   right: 35%;
+  animation: fadein 4s;
 }
 
 .pooh_header_picture {
   position: absolute;
   top: 20%;
-  right: 30%;
+  right: 29%;
+  animation: fadein 4s;
 }
 
 .down_arrow {
@@ -54,7 +62,7 @@
   100% { transform: translateY(0); }
 }
 
-.gradient_box {
+.gradient_box_alice {
   background-image: linear-gradient(white, lightblue);
   position: absolute;
   top: 110%;
@@ -62,13 +70,13 @@
   height: 500px;
 }
 
-.grass_field {
+.grass_field_alice {
   position: absolute;
   top: 115%;
   right: 0%;
 }
 
-.first_chapter {
+.first_chapter_alice {
   position: absolute;
   top: 125%;
   width: 75%;

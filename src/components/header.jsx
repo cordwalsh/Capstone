@@ -6,9 +6,6 @@ import Pooh from './Pooh';
 function Header() {
   return (
     <div className="header">
-      <div className="home_link">
-        <Link to="/">Home</Link>
-      </div>
       <div className="alice_link">
         <Link to="/Alice">Alice</Link>
       </div>

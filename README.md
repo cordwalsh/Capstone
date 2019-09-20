@@ -1,16 +1,16 @@
 
-![picture](./tree.png)
-
-
-#### Tap A Keg By Cord Walsh
+#### Storybook By Cord Walsh
 
 ## Description
 
-This site lets you add a product
+8-10 watching tutorials on speech to text and Api's
+
+2-4 watching tutorials on parallaxing.
+
+still not sure which direction I want to take it
 
 ## Setup/Installation Requirements
-clone this repository https://github.com/cordwalsh/beer-garden.git
-deploy this Project https://cordwalsh.github.io/beer-garden open and view in web browser
+
 
 
 ## Support and contact details

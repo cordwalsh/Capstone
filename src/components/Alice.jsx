@@ -17,11 +17,11 @@ function Alice() {
         <p>SCROLL</p>
         <img src= {down_arrow} />
       </div>
-      <div className="gradient_box"> </div>
-      <div className="grass_field">
+      <div className="gradient_box_alice"> </div>
+      <div className="grass_field_alice">
         <img src= {grass_field} />
       </div>
-      <div className="first_chapter">
+      <div className="first_chapter_alice">
       <p>Alice was beginning to get very tired of sitting by her sister on the bank, and of having nothing to do: once or twice she had peeped into the book her sister was reading, but it had no pictures or conversations in it, 'and what is the use of a book,' thought Alice 'without pictures or conversation?'
       </p>
       </div>
