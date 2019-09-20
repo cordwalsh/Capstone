@@ -4,7 +4,7 @@ import alice_standing from './../assets/alice_header.jpg'
 import down_arrow from './../assets/down_arrow.png'
 import grass_field from './../assets/grass_field.png'
 
-function Story() {
+function Alice() {
   return (
     <div className="story">
       <div className="story_title">
@@ -31,4 +31,4 @@ function Story() {
   );
 }
 
-export default Story;
+export default Alice;
