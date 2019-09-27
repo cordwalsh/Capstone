@@ -1,4 +1,9 @@
 @import url('https://fonts.googleapis.com/css?family=Lobster&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Baloo+Bhaina&display=swap');
+
+body {
+  margin: 0;
+}
 
 .header {
   position: fixed;
@@ -21,7 +26,6 @@
   text-align: center;
   font-family: 'Lobster', cursive;
   font-size: 20px;
-  text-shadow: 1px 1px 8px grey;
   animation: fadein 3s;
 }
 
@@ -53,6 +57,7 @@
   animation-timing-function: ease;
   animation-duration: 2s;
   animation-iteration-count: infinite;
+  z-index: 10;
 }
 
 @keyframes bounce-3 {
@@ -60,6 +65,15 @@
   30%  { transform: translateY(-20px); }
   50%  { transform: translateY(0); }
   100% { transform: translateY(0); }
+}
+
+.pooh_heading_background {
+  width: 100vw;
+  height: 30vh;
+  position: absolute;
+  top: 700px;
+  right: 0px;
+  background: linear-gradient(to bottom, #ffffff 0%, #E4DCC7 100%);
 }
 
 .gradient_box_alice {
@@ -82,4 +96,405 @@
   width: 75%;
   right: 14%;
   font-size: 20px;
+}
+
+section {
+  width: 100%;
+  height: 100vh;
+
+  h2 {
+    z-index: 3;
+    position: absolute;
+    top: 160%;
+    right: 45%;
+    color: white;
+    text-shadow: 2px 2px 4px black;
+  }
+}
+
+.woods {
+  width: 100%;
+  height: 1400px;
+  object-fit: cover;
+  position: absolute;
+  z-index: -1;
+}
+
+.cloud1 {
+  position: absolute;
+  right: 20px;
+  top: 150px;
+  z-index: 1;
+}
+
+.cloud2 {
+  position: absolute;
+  right: 50%;
+  top: 770px;
+  z-index: 2;
+}
+
+.cartoon_tree {
+  position: absolute;
+  top: 700px;
+  right: 0%;
+  width: 100%;
+}
+
+.pooh-section-2 {
+  position: absolute;
+  top: 1800px;
+  right: 10%;
+}
+
+.pooh_windy {
+  position: absolute;
+  top: 880px;
+  right: 70%;
+}
+
+.pooh-section-3 {
+  position: absolute;
+  top: 2500px;
+  right: 30%;
+  margin-left: 100px;
+}
+
+.cloud3 {
+  position: absolute;
+  top: 500px;
+  right: 0%;
+}
+
+.cloud_section_3 {
+  position: absolute;
+  top: 900px;
+  right: 5%;
+}
+
+.section_3_background {
+  width: 100vw;
+  height: 1800px;
+  position: absolute;
+  z-index: -1;
+  top: 2300px;
+  background-color: lightblue;
+}
+
+.pooh-section-4 {
+  position: absolute;
+  top: 3400px;
+  right: 10%;
+}
+
+.flying_birds {
+  width: 50vw;
+  position: absolute;
+  top: 2400px;
+}
+
+.woods2 {
+  position: absolute;
+  width: 100vw;
+  top: 1600px;
+}
+
+.pooh-section-5 {
+  position: absolute;
+  top: 3800px;
+  right: 10%;
+}
+
+.pooh_sitting {
+  position: absolute;
+  top: 1110px;
+  right: 40%;
+}
+
+.think {
+  position: absolute;
+  top: 4200px;
+  right: 70%;
+  color: white;
+  font-size: 40px;
+  text-shadow: 2px 2px 4px black;
+  font-family: 'Baloo Bhaina', cursive;
+  animation: flickerAnimation 2s infinite;
+}
+
+.think2 {
+  position: absolute;
+  top: 4500px;
+  right: 30%;
+  color: white;
+  font-size: 60px;
+  text-shadow: 2px 2px 4px black;
+  font-family: 'Baloo Bhaina', cursive;
+  animation: flickerAnimation 3s infinite;
+}
+
+.think3 {
+  position: absolute;
+  top: 5100px;
+  right: 49%;
+  color: white;
+  font-size: 90px;
+  text-shadow: 2px 2px 4px black;
+  font-family: 'Baloo Bhaina', cursive;
+  animation: flickerAnimation 4s infinite;
+}
+
+@keyframes flickerAnimation {
+  0%   { opacity:1; }
+  50%  { opacity:0; }
+  100% { opacity:1; }
+}
+
+.honey {
+  position: absolute;
+  top: 2000px;
+}
+
+.honey2 {
+  position: absolute;
+  top: 1600px;
+  right: 71%;
+}
+
+.honey3 {
+  position: absolute;
+  top: 4900px;
+  right: 5%;
+  z-index: 5;
+}
+
+.section-6-background {
+  width: 100vw;
+  height: 2400px;
+  position: absolute;
+  z-index: -1;
+  top: 4100px;
+  background: linear-gradient( #add8e6 0%, #003366 100%);
+}
+
+.pooh-section-6 {
+  top: 5500px;
+  right: 15%;
+  width: 1000px;
+}
+
+.cloud2_section_7 {
+  position: absolute;
+  top: 1000px;
+  right: 2%;
+}
+
+.cloud_section_7 {
+  position: absolute;
+  top: 5500px;
+  right: 5%;
+}
+
+.cloud3_section_7 {
+  position: absolute;
+  top: 200px;
+  right: 5%;
+}
+
+.section_8 {
+  position: absolute;
+  top: 6000px;
+  right: 30%;
+}
+
+.section_9 {
+  position: absolute;
+  top: 6200px;
+  right: 30%;
+}
+
+.dark_cloud {
+  position: absolute;
+  top: 5200px;
+  right: 40%;
+}
+
+.rain {
+  position: absolute;
+  top: 1700px;
+  right: 20%;
+}
+
+.piglet_sweeping {
+  position: absolute;
+  top: 4000px;
+  right: 50%;
+  z-index: -1;
+}
+
+.hill {
+  position: absolute;
+  top: 7500px;
+  right: 0%;
+  z-index: -1;
+  width: 100vw;
+}
+
+.piglet_tree {
+  position: absolute;
+  top: 760px;
+  right: 30%;
+  z-index: -1;
+  width: 150vw;
+}
+
+.section_11_background {
+  width: 100vw;
+  height: 2400px;
+  position: absolute;
+  z-index: -1;
+  top: 6500px;
+  background: linear-gradient(to bottom, #003366 0%, #336699 100%);
+  z-index: -2;
+}
+
+.section_10 {
+  position: absolute;
+  top: 7000px;
+  right: 5%;
+  width: 500px;
+}
+
+.cloud_section_10 {
+  position: absolute;
+  top: 2600px;
+  right: 5%;
+}
+
+.section_11 {
+  position: absolute;
+  top: 8200px;
+  right: 40%;
+  width: 800px;
+}
+
+.pooh_piglet {
+  position: absolute;
+  top: 6200px;
+  right: 9%;
+}
+
+.rain2 {
+  position: absolute;
+  top: 2500px;
+  right: 0%;
+}
+
+.dark_cloud2 {
+  position: absolute;
+  top: 9000px;
+  right: 4%;
+  z-index: -3;
+}
+
+.section_12_background {
+  width: 100vw;
+  height: 1500px;
+  position: absolute;
+  z-index: -1;
+  top: 8900px;
+  background: linear-gradient(to bottom, #336699 0%, #993333 100%);
+  z-index: -2;
+}
+
+.section_12 {
+  position: absolute;
+  top: 8800px;
+  right: 40%;
+  width: 700px;
+}
+
+.section_13 {
+  position: absolute;
+  top: 9500px;
+  right: 10%;
+  width: 700px;
+}
+
+.section_12_cloud {
+  position: absolute;
+  top: 6000px;
+  right: 10%;
+}
+
+.puddle {
+  position: absolute;
+  top: 8400px;
+  right: 50%;
+}
+
+.section_12_log {
+  position: absolute;
+  top: 2000px;
+  right: 20%;
+}
+
+.section_12_log2 {
+  position: absolute;
+  top: 9900px;
+  right: 60%;
+}
+
+.section_12_log3 {
+  position: absolute;
+  top: 6400px;
+  right: 10%;
+}
+
+.section_14 {
+  position: absolute;
+  top: 1300%;
+  right: 30%;
+  width: 900px;
+}
+
+.section_15 {
+  position: absolute;
+  top: 1350%;
+  right: 10%;
+  width: 900px;
+}
+
+.candle {
+  position: absolute;
+  top: 11000px;
+  right: 60%;
+}
+
+.section_15_background {
+  width: 100vw;
+  height: 1400px;
+  position: absolute;
+  z-index: -1;
+  top: 10400px;
+  background: linear-gradient(to bottom, #993333 0%, #000000 40%);
+  z-index: -2;
+}
+
+.pooh_yawning {
+  position: absolute;
+  top: 4500px;
+  right: 10%;
+}
+
+.pooh_calling {
+  position: absolute;
+  top: 6900px;
+  right: 70%;
+}
+
+.hello {
+  position: absolute;
+  top: 2800px;
+  right: 10%;
 }
