@@ -465,12 +465,6 @@ section {
   width: 900px;
 }
 
-.candle {
-  position: absolute;
-  top: 11000px;
-  right: 60%;
-}
-
 .section_15_background {
   width: 100vw;
   height: 1400px;
@@ -483,18 +477,369 @@ section {
 
 .pooh_yawning {
   position: absolute;
-  top: 4500px;
+  top: 4700px;
   right: 10%;
 }
 
 .pooh_calling {
   position: absolute;
   top: 6900px;
-  right: 70%;
+  right: 60%;
 }
 
 .hello {
   position: absolute;
   top: 2800px;
   right: 10%;
+}
+
+.moon {
+  position: absolute;
+  top: 1700px;
+  right: 40%;
+}
+
+.cloud_section_15 {
+  position: absolute;
+  top: 13000px;
+  right: 20%;
+}
+
+.section_17_background {
+  width: 100vw;
+  height: 350px;
+  position: absolute;
+  top: 11800px;
+  background: linear-gradient(to bottom, #000000 39%, #add8e6 107%);
+  z-index: 0;
+}
+
+.section_17 {
+  position: absolute;
+  top: 11700px;
+  right: 5%;
+}
+
+.section_18 {
+  position: absolute;
+  top: 12000px;
+  right: 45%;
+}
+
+.section_19 {
+  position: absolute;
+  top: 12500px;
+  right: 15%;
+  width: 800px;
+}
+
+.cloud_section_17 {
+  position: absolute;
+  top: 15980px;
+  right: 0%;
+}
+
+.cloud_section_18 {
+  position: absolute;
+  top: 10000px;
+  right: 0%;
+}
+
+.cloud_section_19 {
+  position: absolute;
+  top: 8400px;
+  right: 20%;
+}
+
+.flood {
+  width: 100vw;
+  position: absolute;
+  top: 1522%;
+}
+
+.rain2_section19 {
+  position: absolute;
+  top: 7500px;
+  right: 0%;
+  z-index: -10;
+}
+
+.pooh_floating {
+  position: absolute;
+  top: 3800px;
+  right: 40%;
+}
+
+.section_20_background {
+  width: 100vw;
+  height: 1500px;
+  position: absolute;
+  top: 12950px;
+  background: linear-gradient(to bottom, #065d70 0%, #ff9999 86%);
+  z-index: -1;
+}
+
+.section_20 {
+  position: absolute;
+  top: 13200px;
+  right: 30%;
+  width: 900px;
+}
+
+.section_21 {
+  position: absolute;
+  top: 13800px;
+  right: 20%;
+  width: 900px;
+}
+
+.flood_water {
+  width: 100vw;
+  position: absolute;
+  top: 4600px;
+}
+
+.bottle {
+  position: absolute;
+  top: 15000px;
+  right: 70%;
+}
+
+.sun {
+  position: absolute;
+  top: 13300px;
+  right: 10%;
+}
+
+.section_20_cloud {
+  position: absolute;
+  top: 18000px;
+  right: 0%;
+}
+
+.section_20_cloud2 {
+  position: absolute;
+  top: 11500px;
+  right: 10%;
+}
+
+.owl {
+  position: absolute;
+  top: 7500px;
+  right: 10%;
+}
+
+.section_22_background {
+  width: 100vw;
+  height: 1600px;
+  position: absolute;
+  top: 14500px;
+  background: linear-gradient(to bottom, #29c7fb -6%, #3366cc 62%);
+  z-index: -1;
+}
+
+.section_22_cloud {
+  position: absolute;
+  top: 13000px;
+  right: 5%;
+}
+
+.section_22_cloud2 {
+  position: absolute;
+  top: 9800px;
+  right: 20%;
+}
+
+.section_22_cloud3 {
+  position: absolute;
+  top: 6000px;
+  right: 40%;
+}
+
+.island {
+  width: 100vw;
+  position: absolute;
+  top: 6600px;
+}
+
+.piglet_note {
+  position: absolute;
+  top: 7900px;
+  right: 5%;
+}
+
+.section_22 {
+  position: absolute;
+  top: 14500px;
+  right: 15%;
+}
+
+.section_23 {
+  position: absolute;
+  top: 14900px;
+  right: 15%;
+  width: 1000px;
+}
+
+.section_24_background {
+  width: 100vw;
+  height: 1000px;
+  position: absolute;
+  top: 16100px;
+  background: linear-gradient(to bottom, #3366cc 0%, #add8e6 62%);
+  z-index: -1;
+}
+
+.section_24 {
+  position: absolute;
+  top: 15500px;
+  right: 15%;
+  width: 1100px;
+}
+
+.section_25 {
+  position: absolute;
+  top: 16300px;
+  right: 10%;
+}
+
+.pooh_piglet_rowing {
+  position: absolute;
+  top: 8600px;
+  right: 40%;
+}
+
+.water_cover {
+  width: 100vw;
+  position: absolute;
+  top: 4550px;
+}
+
+.section_26 {
+  position: absolute;
+  top: 16600px;
+  right: 50%;
+}
+
+.pooh_group {
+  position: absolute;
+  top: 14000px;
+  right: 5%;
+}
+
+.balloons {
+  position: absolute;
+  top: 19000px;
+  right: 30%;
+}
+
+.section_27_background {
+  width: 100vw;
+  height: 2000px;
+  position: absolute;
+  top: 16800px;
+  background: linear-gradient(to bottom, #add8e6 0%, #ccff99 100%);
+  z-index: -1;
+}
+
+.piglet_house {
+  position: absolute;
+  top: 5700px;
+  right: 5%;
+}
+
+.section_27_cloud {
+  position: absolute;
+  top: 15490px;
+  right: 5%;
+}
+
+.pooh_gang {
+  position: absolute;
+  top: 6100px;
+  right: 5%;
+}
+
+.section_27_cloud2 {
+  position: absolute;
+  top: 11500px;
+  right: 0%;
+}
+
+.section_27 {
+  position: absolute;
+  top: 17000px;
+  right: 10%;
+}
+
+.section_29 {
+  position: absolute;
+  top: 17400px;
+  right: 30%;
+}
+
+.section_30 {
+  position: absolute;
+  top: 18000px;
+  right: 45%;
+}
+
+.pooh_piglet_hugging {
+  position: absolute;
+  top: 6000px;
+  right: 40%;
+}
+
+.section_31 {
+  position: absolute;
+  top: 18100px;
+  right: 20%;
+}
+
+.section_32_background {
+  width: 100vw;
+  height: 400px;
+  position: absolute;
+  top: 18800px;
+  background: linear-gradient(to bottom, #ccff99 0%, #e4dcc7 38%);
+  z-index: -1;
+}
+
+.woods_ending {
+  width: 100vw;
+  position: absolute;
+  top: 19100px;
+  right: 0%;
+}
+
+.cloud1_end {
+  width: 100vw;
+  position: absolute;
+  top: 10650px;
+  right: 0%;
+}
+
+.section_32 {
+  position: absolute;
+  top: 18700px;
+  right: 40%;
+}
+
+.section_33 {
+  position: absolute;
+  top: 18900px;
+  right: 10%;
+}
+
+.section_34 {
+  position: absolute;
+  top: 19400px;
+  right: 45%;
+  font-size: 50px;
+}
+
+.pooh_piglet4 {
+  position: absolute;
+  top: 19310px;
+  right: 44%;
 }
