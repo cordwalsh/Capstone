@@ -11,5 +11,20 @@
     <script>
     const rellax = new Rellax('.rellax');
     </script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/annyang/1.1.0/annyang.min.js"></script>
+    <script>
+window.onload = function(){
+    if (annyang) {
+        var commands = {
+            'Cord': function() {
+                alert('is a cool guy');
+            }
+        };
+        annyang.addCommands(commands);
+        annyang.start();
+    }
+}
+</script>
   </body>
 </html>

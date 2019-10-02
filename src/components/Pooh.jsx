@@ -356,7 +356,6 @@ function Pooh() {
           <img src= {cloud2} class ="cloud2_end" />
         </Parallax>
         <img src= {pooh_piglet4} class="pooh_piglet4" />
-
       </section>
 
 
