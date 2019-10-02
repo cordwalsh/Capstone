@@ -14,17 +14,26 @@
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/annyang/1.1.0/annyang.min.js"></script>
     <script>
-window.onload = function(){
-    if (annyang) {
+    window.onload = function(){
+      if (annyang) {
+
         var commands = {
-            'Cord': function() {
-                alert('is a cool guy');
-            }
+          'Hello': function() {
+            window.scrollTo(0, 1900);
+          }
         };
+
+        var commands2 = {
+          'Cord': function() {
+            window.scrollTo(0, 5000);
+          }
+        };
+
         annyang.addCommands(commands);
+        annyang.addCommands(commands2);
         annyang.start();
+      }
     }
-}
 </script>
   </body>
 </html>
