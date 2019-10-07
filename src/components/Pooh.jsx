@@ -171,7 +171,7 @@ function Pooh() {
         <Parallax speed={1}>
           <img src= {piglet_tree} class ="piglet_tree" />
         </Parallax>
-        <h2 class="section_11">"Happy Windsday Piglet!" Pooh announced. Just then another strong gust of wind blew. This time it took Piglet along with the leaves. "This...isn't happy for me!" poor little Piglet cried.</h2>
+        <h2 class="section_11">"Happy Windsday Piglet!" Pooh announced. Just then another strong gust of wind blew. This time it took Piglet along. "This...isn't happy for me!" poor little Piglet cried.</h2>
         <div className="section_11_background"></div>
         <Parallax speed={8}>
           <img src= {dark_cloud2} class="dark_cloud2" />
