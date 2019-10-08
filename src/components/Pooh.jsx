@@ -9,17 +9,17 @@ import cloud2 from './../assets/cloud2.png';
 import cloud3 from './../assets/cloud3.png';
 import Rellax from 'rellax';
 import Parallax from 'react-rellax'
-import cartoon_tree from './../assets/cartoon_tree.png';
+import cartoon_tree from './../assets/cartoon_tree_copy.png';
 import pooh_windy from './../assets/pooh-windy.png';
 import flying_birds from './../assets/flying_birds.png';
-import woods2 from './../assets/woods2.png';
+import woods2 from './../assets/woods2_copy.png';
 import honey from './../assets/honey.png';
 import honey2 from './../assets/honey2.png';
 import honey3 from './../assets/honey3.png';
 import dark_cloud2 from './../assets/dark_cloud2.png';
 import rain from './../assets/rain.png';
 import piglet_sweeping from './../assets/piglet_sweeping.png';
-import hill from './../assets/hill.png';
+import hill from './../assets/hill_copy.png';
 import piglet_tree from './../assets/piglet_tree.png';
 import pooh_piglet from './../assets/pooh_piglet.png';
 import rain2 from './../assets/rain2.png';
@@ -31,12 +31,12 @@ import pooh_calling from './../assets/pooh_calling.gif';
 import hello from './../assets/hello.png';
 import pooh_yawning from './../assets/pooh_yawning.gif';
 import moon from './../assets/moon.png';
-import flood from './../assets/flood.jpg';
+import flood from './../assets/flood.png';
 import pooh_floating from './../assets/pooh_floating.gif';
 import log3 from './../assets/log3.png';
 import piglet_scared from './../assets/piglet_scared.gif';
 import bottle from './../assets/bottle.png';
-import flood_water from './../assets/flood_water.png';
+import flood_water from './../assets/flood_water_copy.png';
 import sun from './../assets/sun.png';
 import owl from './../assets/owl.png';
 import piglet_note from './../assets/piglet_note.png';
@@ -364,6 +364,7 @@ function Pooh() {
       <script>
         const rellax = new Rellax('.rellax');
       </script>
+
     </div>
   )
 }
